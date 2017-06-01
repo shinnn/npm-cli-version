@@ -1,7 +1,7 @@
 {
   "name": "npm-cli-version",
   "version": "0.1.0",
-  "description": "Get the version of the currently installed `npm` CLI",
+  "description": "Get the currently installed `npm` CLI version",
   "repository": "shinnn/npm-cli-version",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
   "scripts": {
@@ -23,22 +23,17 @@
     "async"
   ],
   "dependencies": {
-    "npm-cli-dir": "^1.0.0"
+    "npm-cli-dir": "^2.0.1"
   },
   "devDependencies": {
     "@shinnn/eslint-config-node": "^3.0.0",
     "ava": "^0.19.1",
     "eslint": "^3.19.0",
     "istanbul": "^0.4.5",
-    "nyc": "^10.3.2",
+    "nyc": "^11.0.1",
     "semver": "^5.3.0"
   },
   "eslintConfig": {
-    "extends": "@shinnn/node",
-    "rules": {
-      "no-var": "off",
-      "prefer-arrow-callback": "off",
-      "prefer-const": "off"
-    }
+    "extends": "@shinnn/node"
   }
 }

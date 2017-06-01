@@ -5,13 +5,13 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/54kxhi2qtd12p4d0/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/npm-cli-version/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/npm-cli-version.svg)](https://coveralls.io/github/shinnn/npm-cli-version?branch=master)
 
-Get the version of the currently installed [`npm` CLI](https://github.com/npm/npm)
+Get the currently installed [`npm` CLI](https://github.com/npm/npm) version
 
 ```javascript
 const npmCliVersion = require('npm-cli-version');
 
 npmCliVersion().then(version => {
-  version; //=> '5.0.0'
+  version; //=> '5.0.1'
 });
 ```
 
