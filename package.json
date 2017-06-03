@@ -1,6 +1,6 @@
 {
   "name": "npm-cli-version",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Get the currently installed `npm` CLI version",
   "repository": "shinnn/npm-cli-version",
   "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
@@ -30,7 +30,7 @@
     "ava": "^0.19.1",
     "eslint": "^3.19.0",
     "istanbul": "^0.4.5",
-    "nyc": "^11.0.1",
+    "nyc": "^11.0.2",
     "semver": "^5.3.0"
   },
   "eslintConfig": {
