@@ -1,39 +1,39 @@
 {
-  "name": "npm-cli-version",
-  "version": "0.2.0",
-  "description": "Get the currently installed `npm` CLI version",
-  "repository": "shinnn/npm-cli-version",
-  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
-  "scripts": {
-    "pretest": "eslint --fix --format=codeframe index.js test.js test-fail.js",
-    "test": "nyc ava"
-  },
-  "license": "CC0-1.0",
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "npm",
-    "cli",
-    "version",
-    "command",
-    "semver",
-    "string",
-    "promise",
-    "async"
-  ],
-  "dependencies": {
-    "npm-cli-dir": "^2.0.1"
-  },
-  "devDependencies": {
-    "@shinnn/eslint-config-node": "^3.0.0",
-    "ava": "^0.19.1",
-    "eslint": "^3.19.0",
-    "istanbul": "^0.4.5",
-    "nyc": "^11.0.2",
-    "semver": "^5.3.0"
-  },
-  "eslintConfig": {
-    "extends": "@shinnn/node"
-  }
+	"name": "npm-cli-version",
+	"version": "0.3.0",
+	"description": "Get the currently installed `npm` CLI version",
+	"repository": "shinnn/npm-cli-version",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"scripts": {
+		"pretest": "eslint --fix --format=codeframe index.js test.js test-fail.js",
+		"test": "nyc ava"
+	},
+	"license": "CC0-1.0",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"npm",
+		"cli",
+		"version",
+		"command",
+		"semver",
+		"string",
+		"promise",
+		"async"
+	],
+	"dependencies": {
+		"npm-cli-dir": "^2.0.1"
+	},
+	"devDependencies": {
+		"@shinnn/eslint-config-node": "^3.0.0",
+		"ava": "^0.19.1",
+		"eslint": "^3.19.0",
+		"istanbul": "^0.4.5",
+		"nyc": "^11.0.2",
+		"semver": "^5.3.0"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn/node"
+	}
 }
