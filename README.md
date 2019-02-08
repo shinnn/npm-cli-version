@@ -1,11 +1,11 @@
 # npm-cli-version
 
 [![npm version](https://img.shields.io/npm/v/npm-cli-version.svg)](https://www.npmjs.com/package/npm-cli-version)
-[![Build Status](https://travis-ci.org/shinnn/npm-cli-version.svg?branch=master)](https://travis-ci.org/shinnn/npm-cli-version)
+[![Build Status](https://travis-ci.com/shinnn/npm-cli-version.svg?branch=master)](https://travis-ci.com/shinnn/npm-cli-version)
 [![Build status](https://ci.appveyor.com/api/projects/status/54kxhi2qtd12p4d0/branch/master?svg=true)](https://ci.appveyor.com/project/ShinnosukeWatanabe/npm-cli-version/branch/master)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/npm-cli-version.svg)](https://coveralls.io/github/shinnn/npm-cli-version?branch=master)
 
-Get the currently installed [`npm` CLI](https://github.com/npm/npm) version
+Get the currently installed [`npm` CLI](https://github.com/npm/cli) version
 
 ```javascript
 const npmCliVersion = require('npm-cli-version');
@@ -19,7 +19,7 @@ Unlike the [prior](https://github.com/ngryman/npm-v) [arts](https://github.com/v
 
 ## Installation
 
-[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/getting-started/what-is-npm).
+[Use](https://docs.npmjs.com/cli/install) [npm](https://docs.npmjs.com/about-npm/).
 
 ```
 npm install npm-cli-version
@@ -42,4 +42,4 @@ Return: `Promise<string>`
 
 ## License
 
-[ISC License](./LICENSE) © 2018 Shinnosuke Watanabe
+[ISC License](./LICENSE) © 2018 - 2019 Shinnosuke Watanabe
